@@ -1,0 +1,834 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Roboto', sans-serif;
+}
+header #mini_header
+{
+    background-color: #FFCB0F;
+}
+.info ul
+{
+   list-style-type: none;
+}
+.info ul li
+{ 
+    display: inline-block;
+}
+.info ul li a
+{
+    display: block;
+    color: black;
+    font-size: 14px;
+}
+.info ul li
+{
+    padding-right: 13px;
+    padding-top: 8px;
+}
+.info ul li a:hover
+{
+    text-decoration: none;
+}
+.social-icon
+{
+    text-align: right;
+}
+.social-icon ul
+{
+   list-style-type: none;
+}
+.social-icon ul li
+{ 
+    display: inline-block;
+    padding-right: 13px;
+    padding-top: 8px;
+}
+.social-icon ul li a
+{
+    display: block;
+    color: black;
+    font-size: 17px;
+}
+#main-header
+{
+    background-color:#222533 !important ;
+}
+.bg-light {
+    background-color: #222533 !important;
+    border: transparent;
+    padding: 15px;
+}  
+.navbar-light .navbar-nav .nav-link
+{
+    color: #fff;
+    padding: 15px;
+}  
+#banner
+{
+    background: url('images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#banner .main-content
+{
+  text-align: center;
+  padding-bottom: 150px;
+  padding-top: 100px;    
+}
+.main-content h4
+{  
+    font-size: 3vw;
+    color: white;
+    padding-bottom: 10px;
+} 
+.main-content h1
+{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 6.5vw;
+    margin-bottom: 10px;
+}
+.main-content h1 span
+{
+    color: #ffcb0f;
+}
+.main-content main
+{
+    color: white;
+    margin-bottom: 40px;
+    padding: 0px 12vw;
+}
+.main-content .button button
+{
+   color: #FFFFFF;
+   font-size: 15px;
+   border-radius: 0.7rem;
+   font-weight: bold;
+   padding: 7px;
+}
+.our_company .content
+{
+    padding: 0px 0px;
+}
+.our_company h5
+{
+   font-weight: bolder;
+   color: #ffcb0f;
+   font-size: 4vw;
+   font-family: 'Anton', sans-serif;
+   padding-top: 70px;
+}
+.our_company h3
+{
+    font-weight: bolder;
+    font-size: 2.5vw;
+    margin-bottom: 16px;
+    color:#222533;
+}
+.our_company p
+{
+    color:#222533;
+    text-align: justify;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.content .company-button button
+{
+    color: #FFFFFF;
+    font-size: 15px;
+    border-radius: 0.7rem;
+    font-weight: bold;
+    padding: 7px;
+}
+.why-choose-us
+{
+    background-color: #f2f7fa;
+    padding-bottom: 40px;
+}
+.why-choose-us p
+{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.why-choose-us2 h6
+{
+    font-size: 17px;
+    color: #484848;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 12px;
+}
+.why-choose-us2 p
+{
+    padding-bottom: 154px;
+    text-align: justify;
+    padding: 0 33px;
+    font-size: 14px;
+}
+.choose_us h4
+{
+    color: #484848;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 60px;
+    padding-bottom: 35px;
+    font-family: 'Anton', sans-serif;
+}
+.services
+{
+    padding-bottom: 80px;
+}
+.services-content h6
+{
+    font-size: 16px;
+    color: #484848;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.services-content .company-button button
+{
+    color: #FFFFFF;
+    font-size: 15px;
+    border-radius: 0.7rem;
+    font-weight: bold;
+    padding: 7px;
+}
+.services-content p
+{
+    font-size: 13px;
+    text-align: justify;
+    padding-right: 22px;
+}
+.our-services h4
+{
+    color: #484848;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 60px;
+    padding-bottom: 35px;
+    font-family: 'Anton', sans-serif;
+}
+.company_review
+{
+    background: url('images/background.jpg');
+}
+.review_content h4
+{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 23px;
+    font-size: 25px;
+}
+.review_content p
+{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding: 0px 100px;
+}
+.review_img
+{
+    margin-top: 70px;
+    padding-bottom: 50px;
+}
+.review_small_img img
+{
+    padding: 0px 0px 7px 7px;
+}
+.customer_reviews
+{
+    background-image: url('images/customer_review_back.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.customer_heading h4
+{
+    /*padding-top: 30px;
+    padding-bottom: 10px;*/
+    color: #484848;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 60px;
+    font-family: 'Anton', sans-serif;
+}
+.customer_heading p
+{
+    font-size: 14px;
+    padding: 10px 70px 0px;
+}
+.review_img1
+{
+    background:#e5e5e5;
+    border-radius: 1.0em;
+    margin-top: 20px; 
+}
+.review_img2
+{
+    background: #ffcb0f;
+    border-radius: 1.0em;
+    width: 100%;
+    padding-bottom: 70px;
+}
+.review_img3
+{
+    background: #e5e5e5;
+    border-radius: 1.0em;
+    margin-top: 20px;
+}
+.customer_content p
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #484848;
+    text-align: justify;
+    line-height: 1.8em;
+}
+.customer_content img
+{
+    float: left;
+    padding-top: 30px;
+    padding-right: 5px;
+}
+.customer_content h6
+{
+    padding-left: 0px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #484848;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.john_smith_img1
+{
+    padding: 0px 40%;
+}
+.john_smith_img2
+{
+    padding: 0px 40%;
+}
+.john_smith_img3
+{
+    padding: 0px 40%;
+}
+.contact_us
+{
+    background-color: #fedb5d;
+    padding: 30px 0px;
+}
+.submit_button
+{
+    background-color: #73757e;
+    color: white;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    border-radius: 0.8em;
+    font-size: 18px;
+    margin: 5px;
+}
+.input_form
+{
+    margin: 5px;
+    border-radius: 0.6em;
+}
+.contact_us_content
+{
+    padding: 10px;
+}
+.contact_us_content h4
+{
+    color:  #73757e;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+}
+.contact_us_content h3
+{
+    color:  #73757e;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.footer_color
+{
+    background-color: #676b72;
+    padding: 15px;
+}
+.footer_info
+{
+    background: url('images/footer_img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer_color2
+{
+   background-color: #1a1c27;
+}
+.footer_color2 p
+{
+    color: white;
+}
+.footer_color2 p span
+{
+    color: #ffcb0f;
+}
+.footer_details h5
+{
+   color: white;
+   padding-top: 60px;
+   padding-bottom: 40px;
+}
+.footer_details p
+{
+    color: white;
+    font-size: 13px;
+    padding-top: 10px;
+    text-align: justify;
+}
+.footer_icon
+{
+    padding-top: 17px;
+}
+.footer_icon ul li
+{
+    display: inline-block;
+    text-decoration: none;    
+}
+.footer_icon ul li a
+{
+    color: black;
+    background-color: yellow;
+    border-radius: 2rem;
+    font-size: 17px;
+    padding: 7px;
+    margin: 3px;
+}
+.link_item ul
+{
+    list-style-image: url('images/explore_img.png');
+}
+.link_item ul li a
+{
+    color: white;
+}
+.link_item ul li a:hover
+{
+    text-decoration: none;
+}
+.ul_icon ul
+{
+    list-style: url("images/20aug.png");  
+}
+.ul_icon ul li
+{
+    padding: 3px;
+}
+.lates_info ul li a
+{
+    color: white;
+}
+.ul_info ul
+{
+    list-style-type: none;
+    text-decoration: none;    
+}
+.ul_info ul li
+{
+    padding: 6px;
+}
+.ul_info ul li a:hover
+{
+    text-decoration: none;
+}
+.contact ul li
+{
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 3rem;
+}
+.contact ul li a
+{
+    color: white;   
+}
+.contact ul li a:hover
+{
+    text-decoration: none;
+}
+.about_company 
+{
+    padding-right: 40px;
+}
+
+
+@font-face
+{
+    font-family: Futura Bold;
+    src: url('fonts/Futura Bold.ttf');
+}
+@font-face
+{
+    font-family: Futura Book;
+    src: url('fonts/Futura Book.ttf');
+}
+@font-face
+{
+    font-family: Anton-Regular;
+    src: url('fonts/Anton-Regular.ttf');
+}
+@font-face
+{
+    font-family:Roboto-Bold;
+    src: url('fonts/Roboto-Bold.ttf');
+}
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) 
+{
+    .main-content .button button
+    {        
+         font-size: 8px;  
+         padding: 4px;  
+    }
+    .our_company p
+    {
+        font-size: 10px;
+    }
+    .content .company-button button
+    {        
+        font-size: 8px;  
+        padding: 4px;  
+    }
+    .why-choose-us p
+    {
+        font-size: 10px;
+    }
+    .our-services h4
+    {
+        font-size: 17px;        
+    }
+    .choose_us h4
+    {
+        font-size: 17px;       
+    }
+    .services-content .company-button button
+    {        
+        font-size: 8px;  
+        padding: 4px;  
+    }
+    .review_content p
+    {
+    font-size: 13px;
+    padding: 0px 55px;
+    }
+    .company-img1
+    {
+        margin: 30px;
+    }
+    .company_small_img
+    {
+        padding-left: 18px;
+        padding-right: 24px;
+    }
+    .customer_heading h4
+    {
+        font-size: 17px;   
+    }
+    .customer_heading p
+    {
+        font-size: 10px; 
+        padding: 10px 50px 0px;
+    }
+    .review_img2
+    {
+        margin-left: 50px;
+        width: 80%;
+    }
+    .contact_us_content h4
+    {    
+       font-size: 18px;   
+    }
+    .contact_us_content h3
+    {
+       font-size: 22px;    
+    }
+    .footer_details h5
+    {
+        text-align: center;
+    }
+    .logo_img
+    {
+        text-align: center;
+        margin-bottom: 7px; 
+    }
+    .footer_details p
+    {
+        text-align: center;
+        padding: 0 10px;  
+    }
+    .footer_icon
+    {
+        text-align: center;
+    }
+    .link_item
+    {
+       margin-left: 42%;
+    }
+    .lates_info
+    {
+        margin-left: 30%;
+    }
+    .contact
+    {
+        margin-left: 25%;
+    }
+    .about_company 
+    {
+        padding: 0px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px)
+{
+   .info
+   {
+       display: none;
+   }
+   .main-content main
+   {
+       font-size: 12px;
+   }
+   .main-content .button button
+   {        
+        font-size: 10px;  
+        padding: 5px;  
+   }
+   .content .company-button button
+   {        
+       font-size: 10px;  
+       padding: 5px;  
+   }
+   .our_company p
+    {
+        font-size: 12px;
+        text-align: center;
+    }
+    .our_company h5
+    {
+        text-align: center;
+    }
+    .our_company h3
+    {
+        text-align: center;
+    }
+    .why-choose-us p
+    {
+        font-size: 12px;
+        text-align: center;
+    }
+    .choose_us h4
+    {
+        font-size: 20px;
+    }
+    .our-services h4
+    {
+        font-size: 20px;
+    }
+    .customer_heading h4
+    {
+        font-size: 20px;
+    }
+    .services-content .company-button button
+    {
+        font-size: 10px;  
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    .review_content p
+    {
+        font-size: 13px;
+        padding: 0px 40px;
+    }
+    .customer_heading p
+    {
+        font-size: 12px;
+        padding: 10px 27px 0px;
+    }
+    .contact_us_content h4
+    {    
+       font-size: 20px;   
+    }
+    .contact_us_content h3
+    {
+       font-size: 24px;    
+    }
+    .footer_details h5
+    {
+        text-align: center;
+    }
+    .logo_img
+    {
+        text-align: center;
+        margin-bottom: 7px; 
+    }
+    .footer_details p
+    {
+        text-align: center;
+        padding: 0 10px;  
+    }
+    .footer_icon
+    {
+        text-align: center;
+    }
+    .link_item
+    {
+        padding-left: 5%;
+    }
+    .lates_info
+    {
+        padding-left: 10%;
+    }
+    .contact
+    {
+        margin-left: 25%;
+    }
+    .about_company 
+    {
+        padding: 0px;
+    }  
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px)
+{ 
+    .info .info1
+    {
+        display: none;
+    }
+    .main-content main
+    {
+        font-size: 13px;
+    }
+    .choose_us h4
+    {
+        font-size: 26px;
+    }
+    .our-services h4
+    {
+        font-size: 26px;
+    }
+    .review_content p
+    {
+        padding: 0px 35px;
+    }
+    .customer_heading h4
+    {
+        font-size: 26px;
+    }
+    .customer_heading p
+    {
+        padding: 10px 20px 0px;
+    }
+    .review_img1
+    {
+        margin-left: 80px;
+        margin-right: 30px;
+    }
+    .review_img3
+    {
+        margin-left: 30px;
+        margin-right: 80px;
+    }
+    .john_smith_img1
+    {
+       padding: 0px 45%;
+    }
+    .john_smith_img2
+    {
+       padding: 0px 45%;
+    }
+    .john_smith_img3
+    {
+       padding: 0px 43%;
+    }
+    .contact_us_content h4
+    {    
+       font-size: 22px;   
+    }
+    .contact_us_content h3
+    {
+       font-size: 27px;    
+    }
+    .footer_details h5
+    {
+        text-align: center;
+    }
+    .logo_img
+    {
+        text-align: center;
+        margin-bottom: 7px; 
+    }
+    .footer_details p
+    {
+        text-align: center;
+        padding: 0 10px; 
+    }
+    .footer_icon
+    {
+        text-align: center;
+    }
+    .link_item
+    {
+       margin-left: 39%;
+    }
+    .lates_info
+    {
+        margin-left: 30%;
+    }
+    .contact
+    {
+        margin-left: 25%;
+    }
+    .about_company 
+    {
+        padding: 0px;
+    }
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) 
+{
+    .main-content .button button
+   {        
+        font-size: 13px;    
+   }
+   .content .company-button button
+   {        
+        font-size: 13px;    
+   }
+   .services-content .company-button button
+   {        
+        font-size: 13px;    
+   }
+   .review_content p
+    {
+        padding: 0px 30px;
+    }
+}
